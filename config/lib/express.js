@@ -19,8 +19,35 @@ var config = require('../config'),
   hbs = require('express-hbs'),
   path = require('path'),
   _ = require('lodash'),
-  lusca = require('lusca');
+  lusca = require('lusca'),
+  Sequelize = require('sequelize');
 
+
+const sequelize = new Sequelize('sql2226660', 'sql2226660', 'dI3!hC9*', {
+  host: 'sql2.freemysqlhosting.net',
+  dialect: 'mysql',
+  operatorsAliases: false,
+
+  pool: {
+    max: 5,
+    min: 0,
+    acquire: 30000,
+    idle: 10000
+  },
+
+  // SQLite only
+  storage: 'path/to/database.sqlite'
+});
+
+sequelize
+  .authenticate()
+  .then(() => {
+    console.log('Connection has been established successfully to Mysql');
+  })
+  .catch(err => {
+    console.error('Unable to connect to the Mysql database:', err);
+  });
+  
 /**
  * Initialize local variables
  */
