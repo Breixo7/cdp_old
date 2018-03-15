@@ -1,7 +1,7 @@
 {
-  "name": "meanjs",
-  "description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js",
-  "repository": "https://github.com/meanjs/mean",
+  "name": "CDP",
+  "description": "Control de proyectos en MEAN.JS",
+  "repository": "https://github.com/Breixo7/cdp",
   "logo": "http://meanjs.org/img/logo-small.png",
   "keywords": [
     "mongodb",

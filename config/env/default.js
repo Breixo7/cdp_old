@@ -3,7 +3,7 @@
 module.exports = {
   app: {
     title: 'Control de proyectos',
-    description: 'Learing about MEANJS stack',
+    description: 'Learning about MEANJS stack',
     keywords: 'cdp',
     googleAnalyticsTrackingID: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'GOOGLE_ANALYTICS_TRACKING_ID'
   },

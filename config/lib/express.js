@@ -47,7 +47,7 @@ sequelize
   .catch(err => {
     console.error('Unable to connect to the Mysql database:', err);
   });
-  
+
 /**
  * Initialize local variables
  */

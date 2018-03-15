@@ -1,6 +1,6 @@
 {
-  "name": "meanjs",
-  "description": "Fullstack JavaScript with MongoDB, Express, AngularJS, and Node.js.",
+  "name": "CDP",
+  "description": "Control de proyectos en MEAN.JS",
   "homepage": "http://meanjs.org/",
   "license": "MIT",
   "dependencies": {
